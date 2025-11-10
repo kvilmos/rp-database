@@ -6,6 +6,6 @@ CREATE TABLE item_t (
 	pos_y FLOAT DEFAULT 0,
 	pos_z FLOAT DEFAULT 0,
 	rot FLOAT DEFAULT 0,
-	FOREIGN KEY (blueprint_id) REFERENCES blueprint_t(id),
-	FOREIGN KEY (furniture_id) REFERENCES furniture_t(id)
+	FOREIGN KEY (blueprint_id) REFERENCES blueprint_t(id) ON DELETE CASCADE,
+	FOREIGN KEY (furniture_id) REFERENCES furniture_t(id) ON DELETE CASCADE
 );

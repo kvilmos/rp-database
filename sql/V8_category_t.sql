@@ -14,7 +14,8 @@ INSERT INTO category_t
 	("floorLamps"),
 	("rugsCarpets"),
 	("vasesPlants"),
-	("kitchen");
+	("kitchen"),
+	("openings");
 
 ALTER TABLE furniture_t 
 	MODIFY category_id INT DEFAULT 1;

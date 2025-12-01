@@ -42,7 +42,3 @@ flyway migrate
 | `docker-compose down` | Stop and remove the database container.                             |
 | `flyway info`         | Check the status of applied and pending migrations.                 |
 | `flyway clean`        | **Destructive:** Drops all objects (tables, views) from the schema. |
-
-```
-
-```
